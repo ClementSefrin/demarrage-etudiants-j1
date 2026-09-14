@@ -18,7 +18,7 @@ Note ton avancée après chaque TP. Reste factuel, sans données personnelles. C
 
 ## TP02 — HTML
 
-- Hypothèse :
+- Hypothèse : La largeur va changer et le contenu ne sera plus centré
 - Action :
 - Résultat :
 - Point non compris :
