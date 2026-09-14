@@ -37,14 +37,14 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : Comment ranger les règles dans un object pour le défi.
 - Réponse à la question « Dans le suivi » du TP : Si `brain` utilise `document`, je pense que le navigateur aurait accès à des fichiers et données potentiellement privées. Cela risquerait de donner un accès non autorisé à des informations sensibles.
 
-### TP 
+### TP 09
 
-- J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- J'ai prédit : On va séparer les fonctions selon leur rôle dans des fichiers spéifiques pour que chaque fichier ait un rôle, ce qui facilite la lisibilité et le maintien du code.
+- Nous avons fait : 
+- J'ai observé : 
+- J'ai compris : 
+- Je n'ai pas compris : Comment utiliser `li.dataset.role` pour le défi. Donc j'ai utilisé `flex` en donnant des `id` aux `li`
+- Réponse à la question « Dans le suivi » du TP : `brain.js` gère la logique de réponse du chatbot. `view.js` gère la logique d'affichage des messages. Et `app.js` détecte les interactions de l'utilisateur pour faire le lien entre l'interface, la logique de réponse, et la logique d'affichage.
 
 ### TP 
 

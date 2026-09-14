@@ -1,4 +1,5 @@
 import { validateMessage, replyTo } from "./brain.js";
+import { renderMessage } from "./view.js";
 
 const formulaire = document.querySelector('#chat-form');
 const statut = document.querySelector('#status');
@@ -6,11 +7,12 @@ const versionElt = document.querySelector('#version');
 const champ = document.querySelector('#message')
 const liste = document.querySelector('#messages')
 
+const historique = []
+
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
   event.preventDefault();
   const validatedMessage = validateMessage(champ.value)
-  console.log(validatedMessage)
 
   if (!validatedMessage?.ok) {
     statut.textContent = validatedMessage?.error
@@ -18,12 +20,17 @@ formulaire?.addEventListener('submit', (event) => {
     return
   }
 
-  const messageElt = document.createElement('li')
-  messageElt.textContent = "Vous : " + champ.value
-  liste.append(messageElt)
-  const reponseElt = document.createElement('li')
-  reponseElt.textContent = "Cap Web : " + replyTo(validatedMessage?.value)
-  liste.append(reponseElt)
+  historique.push({
+    role: 'Vous',
+    text: champ.value
+  })
+  historique.push({
+    role: 'Cap Web',
+    text: replyTo(validatedMessage?.value)
+  })
+
+  renderMessage(historique, liste)
+
   champ.textContent = ""
   statut.textContent = ""
   champ.focus()

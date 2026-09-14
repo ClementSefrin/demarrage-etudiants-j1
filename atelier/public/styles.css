@@ -25,3 +25,20 @@ main {
     flex-direction: column;
     gap: .5rem;
 }
+
+#messages {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0;
+}
+
+li.vous {
+    display: flex;
+    align-self: flex-end;
+}
+
+li.agent {
+    display: flex;
+    align-self: flex-start;
+}
