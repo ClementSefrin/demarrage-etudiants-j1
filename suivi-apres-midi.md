@@ -2,15 +2,69 @@
 
 **Noté. Un fichier par étudiant, écrit avec vos mots.** Une phrase honnête (« j'ai essayé X, j'ai vu Y, je ne comprends pas pourquoi ») rapporte plus qu'une phrase parfaite recopiée.
 
-- Nom :
-- Binôme :
-- Atelier utilisé (le mien, celui du binôme, la reprise) :
+- Nom : Clément SÉFRIN
+- Binôme : Aucun (nombre impair d'étudiants présents)
+- Atelier utilisé (le mien, celui du binôme, la reprise) : le mien
 
 ## Pour chaque TP abordé
 
 Recopiez ce bloc autant de fois que nécessaire.
 
-### TP…
+### TP 06
+
+- J'ai prédit :
+- Nous avons fait : Vérification que l'état de l'atelier est le bon avant de commencer les TPs après-midi
+- J'ai observé : L'état est bon
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP : La ligne 7 "event.preventDefault();" empêche la page de se recharger à l'envoi en bloquant le comportant de base du bouton submit du formulaire.
+
+### TP 
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP 
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP 
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP 
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP 
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP 
 
 - J'ai prédit :
 - Nous avons fait :
