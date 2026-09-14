@@ -1,11 +1,27 @@
 body {
     font-family: system-ui, sans-serif;
-    margin: 2rem;
     color: #15213a;
     background: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    width: 100%;
+    max-width: 760px;
 }
 
 main {
     max-width: 48rem;
     margin-inline: auto;
+}
+
+#chat-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
