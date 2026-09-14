@@ -7,35 +7,35 @@ Note ton avancée après chaque TP. Reste factuel, sans données personnelles. C
 - Hypothèse :
 - Action :
 - Résultat :
-- Point non compris :
+- Point non compris : Aucun
 
 ## TP01 — Démarrer
 
 - Hypothèse : Si le js ne charge pas, le navigateur n'affiche pas la statut.
 - Action : 
 - Résultat : 
-- Point non compris :
+- Point non compris : Aucun
 
 ## TP02 — HTML
 
 - Hypothèse : La largeur va changer et le contenu ne sera plus centré
 - Action :
 - Résultat :
-- Point non compris :
+- Point non compris : Aucun
 
 ## TP03 — Formulaire
 
 - Hypothèse : "Entrée" dans le champs multiligne saute une ligne
 - Action :
 - Résultat : Un message vide affiche un message d'erreur, un message espace ou long fonctionne normalement
-- Point non compris :
+- Point non compris : Aucun
 
 ## TP04 — Responsive
 
 - Hypothèse :
 - Action :
 - Résultat :
-- Point non compris, test 360 / 1280 :
+- Point non compris, test 360 / 1280 : Aucun point non compris
 
 ## Commandes essayées
 
@@ -49,16 +49,16 @@ git diff
 
 Mes essais :
 
-- Dossier :
-- Commande et résultat :
+- Dossier : demarrage-etudiants-j1
+- Commande et résultat : git status -> Your branch is up to date with 'origin/04-responsive'
 - Problème exact si blocage :
 
 Si Node ou Git bloque, note le message exact et continue en local sans attendre. Le double-clic sur `diagnostic/index.html` ne remplace pas le serveur pour les modules et l'envoi du TP03.
 
 ## Auto-revue finale
 
-- Ce qui s'affiche bien :
-- Ce qui reste fragile au clavier ou à 360 px :
+- Ce qui s'affiche bien : Tout
+- Ce qui reste fragile au clavier ou à 360 px : Rien
 - Ce que je veux revoir en capsule :
 
 ## Rappel Git prudent
