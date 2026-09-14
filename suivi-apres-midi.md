@@ -17,16 +17,16 @@ Recopiez ce bloc autant de fois que nécessaire.
 - J'ai observé : L'état est bon
 - J'ai compris :
 - Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP : La ligne 7 "event.preventDefault();" empêche la page de se recharger à l'envoi en bloquant le comportant de base du bouton submit du formulaire.
+- Réponse à la question « Dans le suivi » du TP : La ligne 7 `event.preventDefault();` empêche la page de se recharger à l'envoi en bloquant le comportant de base du bouton submit du formulaire.
 
-### TP 
+### TP 07
 
 - J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- Nous avons fait : Affichage des messages envoyé par l'utilisateur et affichage du nombre de charactères dans le message pendant la frappe.
+- J'ai observé : 
+- J'ai compris : Tout
+- Je n'ai pas compris : 
+- Réponse à la question « Dans le suivi » du TP : la propriété texContent modifie le contenu dans l'élément html ciblé alors que innerHTML modifier le balisage html en lui-même. Envoyer `<b>gras</b>` avec innerHTML aurait afficher le mot "gras" en gras comme ceci : **gras**
 
 ### TP 
 
