@@ -11,9 +11,9 @@ Note ton avancée après chaque TP. Reste factuel, sans données personnelles. C
 
 ## TP01 — Démarrer
 
-- Hypothèse :
-- Action :
-- Résultat :
+- Hypothèse : Si le js ne charge pas, le navigateur n'affiche pas la statut.
+- Action : 
+- Résultat : 
 - Point non compris :
 
 ## TP02 — HTML
