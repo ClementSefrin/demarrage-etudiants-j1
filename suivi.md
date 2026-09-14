@@ -25,9 +25,9 @@ Note ton avancée après chaque TP. Reste factuel, sans données personnelles. C
 
 ## TP03 — Formulaire
 
-- Hypothèse :
+- Hypothèse : "Entrée" dans le champs multiligne saute une ligne
 - Action :
-- Résultat :
+- Résultat : Un message vide affiche un message d'erreur, un message espace ou long fonctionne normalement
 - Point non compris :
 
 ## TP04 — Responsive
