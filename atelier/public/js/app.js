@@ -1,3 +1,5 @@
+import { validateMessage, replyTo } from "./brain.js";
+
 const formulaire = document.querySelector('#chat-form');
 const statut = document.querySelector('#status');
 const versionElt = document.querySelector('#version');
@@ -7,16 +9,21 @@ const liste = document.querySelector('#messages')
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
   event.preventDefault();
-  const text = champ.value.trim()
+  const validatedMessage = validateMessage(champ.value)
+  console.log(validatedMessage)
 
-  if (text === "") {
-    statut.textContent = 'Le champ ne doit pas être vide.';
+  if (!validatedMessage?.ok) {
+    statut.textContent = validatedMessage?.error
     champ.focus()
     return
   }
+
   const messageElt = document.createElement('li')
-  messageElt.textContent = "Vous : " + text
+  messageElt.textContent = "Vous : " + champ.value
   liste.append(messageElt)
+  const reponseElt = document.createElement('li')
+  reponseElt.textContent = "Cap Web : " + replyTo(validatedMessage?.value)
+  liste.append(reponseElt)
   champ.textContent = ""
   statut.textContent = ""
   champ.focus()

@@ -28,14 +28,14 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : 
 - Réponse à la question « Dans le suivi » du TP : la propriété texContent modifie le contenu dans l'élément html ciblé alors que innerHTML modifier le balisage html en lui-même. Envoyer `<b>gras</b>` avec innerHTML aurait afficher le mot "gras" en gras comme ceci : **gras**
 
-### TP 
+### TP 08
 
-- J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- J'ai prédit : Un switch avec des messages de réponse pour les trois messages pré définis et un message d'erreur pour le reste.
+- Nous avons fait : Un simple if else
+- J'ai observé : En ne mettant que `import {...} from './brain'`, le navigateur n'arrivait pas à charger le fichier. Initialement, l'onglet Network de l'inspecteur du navigateur montrait un type incorrect, ce qui m'a fait pensé que le problème venait des modifications du fichier `server/app.js`. Après vérification, ce fichier était correct. En analysant la requête exacte, j'ai compris que le chemin était incorrect, et que le problème venait de l'import. J'ai donc mis un peu de temps avant de comprendre d'où venait l'erreur.
+- J'ai compris : Il faut bien préciser l'extension du fichier dans les imports.
+- Je n'ai pas compris : Comment ranger les règles dans un object pour le défi.
+- Réponse à la question « Dans le suivi » du TP : Si `brain` utilise `document`, je pense que le navigateur aurait accès à des fichiers et données potentiellement privées. Cela risquerait de donner un accès non autorisé à des informations sensibles.
 
 ### TP 
 
