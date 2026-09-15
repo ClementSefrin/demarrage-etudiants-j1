@@ -55,14 +55,14 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : 
 - Réponse à la question « Dans le suivi » du TP : La conversation apparaitra dans un autre onglet et même dans une autre fenêtre car `localStorage` permet d'accéder au stockage du navigateur. Dans une session de navigation privée, la conversation n'apparaitra pas car la navigation privée à son propre contexte à part.
 
-### TP 
+### TP 11
 
-- J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- J'ai prédit : 
+- Nous avons fait : Ecriture des tests selon le modèle de `server.test.js`. Execution et `npm run lint` et réglage des problèmes remontés (4 : 2 import non utilisés, 1 variable let jamais modifiée et 1 parameter jamais utilisé). Ajout d'un `gitignore` pour node_modules
+- J'ai observé : 
+- J'ai compris : Tout
+- Je n'ai pas compris : 
+- Réponse à la question « Dans le suivi » du TP : le message du test rouge est `une phrase inconnue reçoit une réponse, différente de celle de « aide »`. Il permet de savoir quel test a échoué et quel est le comportement attendu.
 
 ### TP 
 

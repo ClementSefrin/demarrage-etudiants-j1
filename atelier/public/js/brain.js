@@ -24,5 +24,7 @@ export function replyTo(message) {
         return "test"
     } else {
         return "Je ne connais que les mots Bonjour/Salut, Aide et Test."
+        // Modification pour rater un des tests :
+        // return 'Si vous avez besoin d\'aide, écrivez "Aide". Pour faire un test, écrivez "Test".'
     }
 }

@@ -24,7 +24,7 @@ window.addEventListener('load', () => {
   }
 })
 
-effacer?.addEventListener('click', (event) => {
+effacer?.addEventListener('click', () => {
   const response = confirm('Voulez-vous vraiment supprimer l\'historique de la conversation?')
 
   if (!response) {
