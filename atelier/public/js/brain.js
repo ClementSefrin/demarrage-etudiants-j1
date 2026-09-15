@@ -17,9 +17,9 @@ export function validateMessage(raw) {
 export function replyTo(message) {
     const formattedMessage = message.toLowerCase().trim()
     if (formattedMessage === "bonjour" || formattedMessage === "salut") {
-        return (formattedMessage === 'bonjour' ? 'Bonjour' : 'Salut') + ' ! Si vous avez besoin d\'aide, écrivez "Aide". Pour faire un test, écrivez "Test".'
+        return (formattedMessage === 'bonjour' ? 'Bonjour' : 'Salut') + ' !'
     } else if (formattedMessage === "aide") {
-        return "Voulez-vous que je raconte un mythe grec, nordique ou égyptien ?"
+        return 'Si vous avez besoin d\'aide, écrivez "Aide". Pour faire un test, écrivez "Test".'
     } else if (formattedMessage === "test") {
         return "test"
     } else {

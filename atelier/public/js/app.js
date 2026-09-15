@@ -6,8 +6,35 @@ const statut = document.querySelector('#status');
 const versionElt = document.querySelector('#version');
 const champ = document.querySelector('#message')
 const liste = document.querySelector('#messages')
+const effacer = document.querySelector('#effacer')
 
-const historique = []
+let historique = []
+
+window.addEventListener('load', () => {
+  try {
+    const oldHist = localStorage.getItem('capweb.historique')
+    if (oldHist === null) {
+      return
+    }
+
+    historique = JSON.parse(oldHist)
+    renderMessage(historique, liste)
+  } catch (error) {
+    console.error('Impossible de charger l\'historique')
+  }
+})
+
+effacer?.addEventListener('click', (event) => {
+  const response = confirm('Voulez-vous vraiment supprimer l\'historique de la conversation?')
+
+  if (!response) {
+    return
+  }
+
+  historique = []
+  localStorage.removeItem('capweb.historique')
+  renderMessage([], liste)
+})
 
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
@@ -30,8 +57,8 @@ formulaire?.addEventListener('submit', (event) => {
   })
 
   renderMessage(historique, liste)
-
-  champ.textContent = ""
+  localStorage.setItem('capweb.historique', JSON.stringify(historique))
+  champ.value = ""
   statut.textContent = ""
   champ.focus()
   return

@@ -46,14 +46,14 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : Comment utiliser `li.dataset.role` pour le défi. Donc j'ai utilisé `flex` en donnant des `id` aux `li`
 - Réponse à la question « Dans le suivi » du TP : `brain.js` gère la logique de réponse du chatbot. `view.js` gère la logique d'affichage des messages. Et `app.js` détecte les interactions de l'utilisateur pour faire le lien entre l'interface, la logique de réponse, et la logique d'affichage.
 
-### TP 
+### TP 10
 
 - J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- Nous avons fait : Régler le fait que le champ de message ne se vide pas après l'envoi d'un message en remplaçant `textContent` par `value`.
+- J'ai observé : 
+- J'ai compris : Tout, j'avais déjà utilisé `localStorage` dans un projet précédent
+- Je n'ai pas compris : 
+- Réponse à la question « Dans le suivi » du TP : La conversation apparaitra dans un autre onglet et même dans une autre fenêtre car `localStorage` permet d'accéder au stockage du navigateur. Dans une session de navigation privée, la conversation n'apparaitra pas car la navigation privée à son propre contexte à part.
 
 ### TP 
 
