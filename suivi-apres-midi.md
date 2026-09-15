@@ -64,28 +64,26 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : 
 - Réponse à la question « Dans le suivi » du TP : le message du test rouge est `une phrase inconnue reçoit une réponse, différente de celle de « aide »`. Il permet de savoir quel test a échoué et quel est le comportement attendu.
 
-### TP 12
-- Epreuve d'explication : `app.js` détecte les interactions de l'utilisateur commme l'écriture et l'envoi d'un message, ou la suppression de la conversation. Il envoie ensuite les données à `brain.js` qui gère la logique de réponse. Une fois la réponse reçue, il fait appel à `view.js` pour gérer l'affichage de la réponse. Enfin, `app.js` gère aussi le stockage de la conversation en chargeant les données au démarrage, en les sauvegardant à l'envoi d'un message, et en les supprimant si demandé par l'utilisateur.
-`brain.js` gère la logique de réponse aux messages. Il reçoit les données brut envoyée par `app.js`, les traitent, et décide de la réponse.
-- J'ai prédit :
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
-
 ## Épreuve de l'explication (TP12)
 
 - Ce que je n'ai pas su expliquer :
 - Ce que mon binôme n'a pas su expliquer :
+- Comme je n'ai pas de binome, je met juste les explications écrites : 
+
+`app.js` détecte les interactions de l'utilisateur commme l'écriture et l'envoi d'un message, ou la suppression de la conversation. Il envoie ensuite les données à `brain.js` qui gère la logique de réponse. Une fois la réponse reçue, il fait appel à `view.js` pour gérer l'affichage de la réponse. Enfin, `app.js` gère aussi le stockage de la conversation en chargeant les données au démarrage, en les sauvegardant à l'envoi d'un message, et en les supprimant si demandé par l'utilisateur.
+
+`brain.js` gère la logique de réponse aux messages. Il reçoit les données brut envoyée par `app.js`, les traitent, et décide de la réponse.
 
 ## Trois questions
 
 1. Pourquoi `textContent` et pas `innerHTML` ?
+Pour simplement modifier le text affiché et pas le balisage HTML, ce qui permettrait de modifier le code de la page et représenterait un risque de sécurité.
 2. Pourquoi trois fichiers plutôt qu'un seul ?
+Pour que chaque fichier ait sont propre rôle, ce qui améliore la lisibilité et la maintenabilité du code.
 3. Si demain une IA écrit une partie du code, comment saurai-je qu'il est correct ?
+En me basant sur mes compétences et mon esprit critique pour analyser le code fourni par l'IA et vérifier qu'il est correct (fonctionnalités, potentiel bug, etc...).
 
 ## Aides utilisées
 
-- Indices, aide-mémoire, voisins :
-- Ce que j'ai demandé à une IA, et comment j'ai vérifié sa réponse :
+- Indices, aide-mémoire, voisins : Aucun
+- Ce que j'ai demandé à une IA, et comment j'ai vérifié sa réponse : Le problème que je mentionne dans le TP08 avec l'import de `brain.js`. J'ai donné l'erreur et un peu de contexte,  et l'IA m'a fourni plusieurs pistes à vérifier pour trouver d'où vient le problème. La première me conseillat de regarder la requête exacte, ce que j'ai fait et j'ai ensuite compris le reste du problème seul.
