@@ -64,8 +64,9 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : 
 - Réponse à la question « Dans le suivi » du TP : le message du test rouge est `une phrase inconnue reçoit une réponse, différente de celle de « aide »`. Il permet de savoir quel test a échoué et quel est le comportement attendu.
 
-### TP 
-
+### TP 12
+- Epreuve d'explication : `app.js` détecte les interactions de l'utilisateur commme l'écriture et l'envoi d'un message, ou la suppression de la conversation. Il envoie ensuite les données à `brain.js` qui gère la logique de réponse. Une fois la réponse reçue, il fait appel à `view.js` pour gérer l'affichage de la réponse. Enfin, `app.js` gère aussi le stockage de la conversation en chargeant les données au démarrage, en les sauvegardant à l'envoi d'un message, et en les supprimant si demandé par l'utilisateur.
+`brain.js` gère la logique de réponse aux messages. Il reçoit les données brut envoyée par `app.js`, les traitent, et décide de la réponse.
 - J'ai prédit :
 - Nous avons fait :
 - J'ai observé :
